@@ -2,46 +2,23 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the documentation page of CBK2000, an auto-grader created using bash for the Operating Systems Course of Fasilkom UI.
 
-## Getting Started
+## DISCLAIMER
 
-Get started by **creating a new site**.
+You are free to share, copy and redistribute the material of this site in any medium or format for any purpose, even commercially. Please give appropriate credit, provide a link to the page, and indicate if changes were made. You may do so in any reasonable manner. You should not apply legal terms or technological measures, that legally restrict others from doing anything that is permitted here.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This is the Way! <br />
+C. BinKadal
 
-### What you'll need
+### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+In order to run this app on local you need a minimum of [Node.js](https://nodejs.org/en/download/) version 16.14 or above
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Page Walkthrough
+1. Development
+<p>Development is the page to explain on how developers could further develop or maintain the CBK2000 app or extend this documentation further.</p>
+2. Guide
+<p>The Guide page is the page for users to read, where all the features on the CBK2000 app will be explained and can be used by the user. This page will also contain some troubleshooting methods for common problems that may occur.</p>

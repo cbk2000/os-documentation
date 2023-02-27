@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'CBK2000',
+  tagline: 'An ',
+  favicon: 'img/logo.jpg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -58,23 +58,29 @@ const config = {
     ],
   ],
 
+  customFields:
+  ({
+    taglineBold: "Operating Systems Course ",
+    taglineCont: "Task Auto-Grader Documentation",
+  }),
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'CBK2000',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Cbkadal',
+          src: 'img/logo.jpg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
