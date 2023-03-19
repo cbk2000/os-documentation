@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Tutorial
@@ -7,7 +7,7 @@ sidebar_position: 4
 Here we will show you how to use the cbk03 command-line based program.
 
 All the following steps assumes that:
-1. You have followed the guide from [Getting Started](http://localhost:3000/os-documentation/docs/development/getting-started).
+1. You have followed the guide from [Getting Started](/os-documentation/docs/development/getting-started).
 2. You are in a **linux** environment (Ubuntu, Debian, Arch, Endeavour, Kali, etc).
 3. You have **bash** installed in your system.
 4. You have **git** installed in your system
@@ -73,4 +73,50 @@ it should directly run its tasked based on the given config at config.txt.
 Once the script is finished, you should be able to see the ouput at the output directory.
 
 ## 4. Output directory
-The output directory by default is located in the pdir directory, 
+The output directory by default is located in the pdir directory. On repository clone, it contains the initial run of the program while testing on development. If its not there just run [Step 3](/os-documentation/docs/development/markdown-features#3-main-script) in order to generate one.
+
+In order to check the contents of the output directory, you could use
+```
+cd output
+ls -al
+```
+
+It should contain files such as
+1. SCORET.txt
+
+In order to output the content of the file you can use
+```
+cat <filename>
+```
+example, if you want to see SCORET.txt
+```
+cat SCORET.txt
+```
+
+## 5. Script Components
+On pdir, there is another directory namely scripts. This directory contains all the small scripts which is divided per use case in order to complete a specific task. In order to enter the script directory, if you have followed each step since [Input directory check](/os-documentation/docs/development/tutorial#1-input-directory-check), you could use
+```
+cd ..
+cd scripts
+ls -al
+```
+
+This should show you the scripts that are used in the main script
+
+The output of which should contain
+1. input_check.sh
+2. user_data_array.sh
+3. weekly_data_array.sh
+4. init_scoret.sh
+
+In order to view the content of the scripts, you can use
+```
+cat <script_name>
+```
+example, if you want to view input_check.sh, you can use
+```
+cat input_check.sh
+```
+
+## 6. Finishing
+Congrats, you just finish the basic tutorial on how the workflow of the app goes, you can explore more yourself or you can headover to [Scripts](/os-documentation/docs/development/scripts) to see a documentation on what each script in the program does.
