@@ -70,7 +70,7 @@ In this branch, there 2 ways you/your team can approach it.
 1. One way is to stack up all developments there with direct push to the development branch available 
 2. Second way is for every developer could create their own branch with their respective development branches/features that are developed and create a system close to the master branch is to the development branch (protect the branch from direct push).
 
-This branch is created in order to prevent occasional pushes to the master/main branch for small changes thus saving up on workflows and down time for the deployment.
+This branch is created in order to prevent occasional pushes to the master/main branch for small changes thus saving up on workflows and down time for the deployment. For better practice, it is best to also have a release branch in order to do final checks on the update that wants to be pushed to master/main.
 
 ### Usage on local
 In your local machine you could use the command
@@ -81,8 +81,29 @@ in order to directly pull from the remote repository or if it hasn't existed yet
 
 ## Release Branch
 
-The release branch is used to ...
+Once the dev branch has accumulated enough changes and features and has been tested and deemed stable, a release branch is created from the dev branch. This is where final testing and bug fixes are done before the code is released to the public. Once all testing is complete, the release branch is merged into the master/main branch.
+
+### Create a release branch
+In your local machine, first make sure that you are on the latest dev branch
+```
+git checkout dev
+git pull origin dev
+```
+
+Next you can now create the release branch
+```
+git checkout -b "<name_of_release_branch>"
+```
+
+Once the version is deemed stable, you can now create a pull request to master/main from the release branch.
 
 ## Hotfix Branch
 
-TODO
+The hotfix branch is used for urgent bug fixes that need to be deployed immediately. It is created from the main branch and is used to isolate the fix from the rest of the code until it has been tested and approved. Once the fix is approved, it can be merged back into the main branch and/or the release branch as needed.
+
+### Create a hotfix branch
+
+To create a hotfix branch in your local machine you can use
+```
+git checkout -b "<name_of_hotfix_branch>"
+```

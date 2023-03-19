@@ -5,6 +5,12 @@
   width: 100%;
 }
 
+.header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+}
+
 .featureSvg {
   height: 200px;
   width: 200px;
