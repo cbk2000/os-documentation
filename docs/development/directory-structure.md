@@ -31,6 +31,7 @@ pdir/
   |-output/
     |-...
   |-scripts/
+    |-...
   |-README.md
   |-config.txt
   |-script.sh
