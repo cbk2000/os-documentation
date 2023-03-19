@@ -73,7 +73,7 @@ it should directly run its tasked based on the given config at config.txt.
 Once the script is finished, you should be able to see the ouput at the output directory.
 
 ## 4. Output directory
-The output directory by default is located in the pdir directory. On repository clone, it contains the initial run of the program while testing on development. If its not there just run [Step 3](/os-documentation/docs/development/markdown-features#3-main-script) in order to generate one.
+The output directory by default is located in the pdir directory. On repository clone, it contains the initial run of the program while testing on development. If its not there just run [Step 3](/os-documentation/docs/development/tutorial#3-main-script) in order to generate one.
 
 In order to check the contents of the output directory, you could use
 ```
