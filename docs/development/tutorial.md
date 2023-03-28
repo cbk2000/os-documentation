@@ -108,6 +108,7 @@ The output of which should contain
 2. user_data_array.sh
 3. weekly_data_array.sh
 4. init_scoret.sh
+5. user_operations directory
 
 In order to view the content of the scripts, you can use
 ```
@@ -117,6 +118,13 @@ example, if you want to view input_check.sh, you can use
 ```
 cat input_check.sh
 ```
+
+:::info `user_operations`
+`user_operations` contains many utilities to modify the user's data, and their weekly score (for now). You can view the scripts page to review it's usage. 
+ 
+:::
+
+
 
 ## 6. Finishing
 Congrats, you just finish the basic tutorial on how the workflow of the app goes, you can explore more yourself or you can headover to [Scripts](/os-documentation/docs/development/scripts) to see a documentation on what each script in the program does.
