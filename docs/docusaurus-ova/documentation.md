@@ -64,7 +64,7 @@ time npm install --global yarn && \
 echo "Done. Environment ready."
 ```
 
-### Explaination
+<!-- ### Explanation
 
 #### Node JS
 Docusaurus is built on top of React, a JavaScript framework used to build user interfaces. 
@@ -101,7 +101,7 @@ npm install -g yarn
 :::
 :::warning `yarn` from `apt`
 The `yarn` package available from `apt` is not the package we want!
-:::
+::: -->
 
 ### Running a local preview
 First, we'll install the packages required by docusaurus.

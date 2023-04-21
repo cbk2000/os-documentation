@@ -85,7 +85,7 @@ const config = {
           },
           {to: 'https://os.vlsm.org', label: 'OS Course Page', position: 'left'},
           {
-            href: 'https://github.com/cbk2000/cbk03',
+            href: 'https://github.com/cbk2000/os-documentation',
             label: 'GitHub',
             position: 'right',
           },
